@@ -92,5 +92,10 @@
 ### ln
 
 - link
-- 윈도우에서 우리가 흔히 아는 바로기가를 생각하면 된다.
-- Symbolic link 와 hard link로 나뉘는데
+- 윈도우에서 우리가 흔히 아는 바로가기를 생각하면 된다.
+- Symbolic link 와 hard link로 나뉘는데 (다시 확실한 공부 필요)
+
+### grep
+- Global Regular Expression Print.
+- 패턴이 매칭된 모든 줄을 출력.
+`grep [options] PATTERN [FILE...]`
