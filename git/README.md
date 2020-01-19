@@ -43,7 +43,7 @@
 ### git branch
 
 - 단독으로 쓸 경우 모든 branch를 보여준다
-- `git branch NAME` 으로 쓸 경우, 현재 커밋을 가르키고 `NAME`을 이름으로 갖는 새로운브랜치를 생성한다.
+- `git branch NAME` 으로 쓸 경우, 현재 커밋을 가르키고 `NAME`을 이름으로 갖는 새로운 브랜치를 생성한다.
 
 ### git checkout
 
