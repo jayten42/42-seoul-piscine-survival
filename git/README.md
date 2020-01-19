@@ -3,7 +3,7 @@
 - 뿐만 아니라 과제 제출도 git으로 하는것 같다.
 - git은 소스 코드 버전 관리 시스템으로, `자기소개서(최종)(진짜 최종).pdf` 같은 것을 방지할 수 있다.
 - 스냅샷 혹은 게임에서 체크포인트 혹은 세이브 등을 생각하면 된다.
-### git 기본 명령어 
+## git 기본 명령어 
 > 나열된 순서는 최대한 사용 순서와 비슷하게 작성
 
 ### git config
@@ -57,7 +57,7 @@
 - `git push REMOTE BRANCH` BRANCH의 변경사항들을 REMOTE에 기록한다.
 - `git push origin master` 이렇게 자주 사용한다.
 
-### 참고 사이트
+## 참고 사이트
 - [git - 간편 안내서](https://rogerdudler.github.io/git-guide/index.ko.html)
 - [Learn Git Branching](https://learngitbranching.js.org/)
 - [Essential git commands every develper should know](https://dev.to/dhruv/essential-git-commands-every-developer-should-know-2fl)
