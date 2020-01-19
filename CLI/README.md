@@ -98,4 +98,4 @@
 ### grep
 - Global Regular Expression Print.
 - 패턴이 매칭된 모든 줄을 출력.
-`grep [options] PATTERN [FILE...]`
+- `grep [options] PATTERN [FILE...]`
