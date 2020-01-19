@@ -34,7 +34,7 @@
 ### git commit
 
 - 추가된(`git add`) 변경 정보를 커밋한다(저장한다? 기록한다?)
-- `git cmmit -m "Write Commit Message"`
+- `git commit -m "Write Commit Message"`
 
 ### git log
 
