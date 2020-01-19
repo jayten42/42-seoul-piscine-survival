@@ -6,52 +6,52 @@
 ### git 기본 명령어 
 > 나열된 순서는 최대한 사용 순서와 비슷하게 작성
 
-`git config`
+### git config
 
 - 유저 이름, 유저 이메일 등 과 같은 주요 설정 파일을 수정한다.
 - `git config --user.name="NAME" --user.email="EMAIL"` 처럼 사용한다.
 
-`git init`
+### git init
 
 - 현재 디렉토리를 git으로 버전관리를 시작한다.
 - `git init` 을 프로젝트의 루트 디렉토리에서 실행한다.
 
-`git clone`
+### git clone
 
 - 원격에 있는 git repository(저장소) 를 로컬로 복사한다.
 - `git clone GIT-URL` 처럼 사용하며, GIT-URL에 있는 저장소를 복사한다.
 
-`git add`
+### git add
 
 - 현재 작업 디렉토리에 있는 변경 사항들을 커밋 대상으로 추가한다.
 - `git add name` name이라는 파일을 추가한다.
 - `git add .` 현재 디렉토리의 모든 파일을 추가한다.
 
-`git status`
+### git status
 
 - 현재 추가된 (`git add`) 파일 목록을 볼수 있다.
 
-`git commit`
+### git commit
 
 - 추가된(`git add`) 변경 정보를 커밋한다(저장한다? 기록한다?)
 - `git cmmit -m "Write Commit Message"`
 
-`git log`
+### git log
 
 - 커밋 내역을 볼 수 있다.
 
-`git branch`
+### git branch
 
 - 단독으로 쓸 경우 모든 branch를 보여준다
 - `git branch NAME` 으로 쓸 경우, 현재 커밋을 가르키고 `NAME`을 이름으로 갖는 새로운브랜치를 생성한다.
 
-`git checkout`
+### git checkout
 
 - 다른 브랜치로 변경한다.
 - `git checkout NAME` <NAME> 브랜치로 변경한다.
 - `git checkout -b NAME` -b 옵션을 사용할 경우 `git branch NAME; git checkout NAME` 와 동일하다.
 
-`git push`
+### git push
 
 - 변경 사항들을 원격 저장소에 기록한다?
 - `git push REMOTE BRANCH` BRANCH의 변경사항들을 REMOTE에 기록한다.
